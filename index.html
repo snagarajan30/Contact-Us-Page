@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <style>
+       
+        .btn-outline-brand-01:hover{
+          background: #6d14ae;
+          color: white !important;
+        }
+        
+        
+        .btn-brand-02:hover{
+          background: #6d14ae !important;
+        }
+      </style>
+  </head>
+  <body>
+    <section id="contactpage" class="contact-us-section ptb-100">
+      <div class="container mt-5">
+        <div class="row justify-content-around ">
+          <div class="col-12 pb-3 ">
+            <div class="alert alert-danger collapse mt-3" id="alertmsg">Found
+              error in the
+              form. Please
+              check again.
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
+            <div class="contact-us-form gray-light-bg rounded p-5"
+              style="background-color: #f0eaea;">
+              <h4>Ready to get started?</h4>
+              <form action method="POST" id="contactForm"
+                class="contact-us-form" class="was-validated"novalidate="true">
+                <div class="form-row d-flex flex-column ">
+                  <div class="col-12 mb-3">
+                    <div class="form-group has-error">
+                      <input type="text" class="form-control" name="name"
+                        placeholder="Enter name" required="required">
+                    </div>
+                  </div>
+                  <div class="col-12 mb-3">
+                    <div class="form-group has-error">
+                      <input type="email" class="form-control" name="email"
+                        placeholder="Enter email" required="required">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <textarea name="message" id="message" class="form-control"
+                        rows="7" cols="25" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 mt-3">
+                    <a class="btn btn-brand-02 disabled pt-3 pb-3 ps-5 pe-5"
+                      data-toggle="collapse" type="submit"
+                      id="btnContactUs" data-target="#alertmsg"
+                      href="#" role="button" class="form-check-reverse"
+                      style="pointer-events: all; cursor: pointer;  background-color:#a51adb; color: white; ">Send
+                      Message</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="contact-us-content">
+              <h2
+                style="font-family:Montserrat; color:#1b2e4b; font-weight: 600;line-height:1.25;">Looking
+                for a excellent<br> Business idea?</h2>
+              <p class="lead">Give us a call or drop by anytime, we endeavour to
+                answer all enquiries within 24 hours on business days.</p>
+              <a href="#"
+                class="btn btn-outline-brand-01 align-items-center pt-2 pb-2 ps-5 pe-5"
+                style="border-color: #6d14ae;color: #6d14ae; ">Get
+                Directions <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor"
+                  class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                </svg>
+              </a>
+              <hr class="my-5">
+              <ul class="contact-list">
+                <li class="d-flex ">
+                  <div class="contact-icon mr-3"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                      fill="currentColor" class="bi bi-cursor-fill"
+                      viewBox="0 0 30 30" style="
+                    border: 1px solid black;
+                    color:#6d14ae;
+                    border-color:#6d14ae;
+                    width: 50px;
+                    height: 47px;
+                    padding-top: 10px;
+                    padding-left: 15px;
+                    border-radius: 22px; margin-right:8px; margin-left:-35px;">
+                      <path
+                        d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"></path>
+                    </svg>
+                  </div>
+                  <div class="contact-text">
+                    <h5 class="mb-1 text-muted">Company Location</h5>
+                    <p class="text-muted">
+                      100 Yellow House, Mn Factory, United State, 13420
+                    </p>
+                  </div>
+
+                </li>
+                <li class="d-flex pb-3">
+                  <div class="contact-icon mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30"
+                      height="30" fill="currentColor"
+                      class="bi bi-envelope-fill" viewBox="0 0 30 30" style="
+                    border: 1px solid black;
+                    color:#6d14ae;
+                    border-color:#6d14ae;
+                    width: 50px;
+                    height: 47px;
+                    padding-top: 10px;
+                    padding-left: 15px;
+                    border-radius: 22px; margin-right:8px; margin-left:-35px;">
+                      <path
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                  </div>
+                  <div class="contact-text">
+                    <h5 class="mb-1 text-muted">Email Address</h5>
+                    <p class="text-muted">
+                      hello@yourdomain.com
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
